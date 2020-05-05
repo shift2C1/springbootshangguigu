@@ -1,0 +1,13 @@
+#优先级第三高的配置文件
+#server:
+#  port: 8081
+#
+## 类的属性值
+#user:
+#  name: zhangsan
+#  age: 18
+#  maps: {k1: v1,age: 19}
+#  lists: [s1,s2,s3]
+##spring boot 配置文件的加载顺序以及优先级
+## 1、项目根路径下的配置（file/config/application.yaml），2、项目根路径下（file/application.yaml），
+##  3、类路径下的配置（classpath/config/application.yaml），4、类路径（classpath/application.yaml）
